@@ -5,3 +5,4 @@ COPY package.json .
 RUN npm install
 RUN echo "node is starting..."
 RUN node app.js
+EXPOSE 3000
