@@ -1,4 +1,4 @@
-From node
+FROM node
 COPY bin/ .
 COPY public/ .
 COPY routes/ .
