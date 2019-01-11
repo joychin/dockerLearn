@@ -1,4 +1,5 @@
-FROM node
+FROM node:carbon 
+MAINTAINER chenzhuo joychin@foxmail.com
 COPY bin/ .
 COPY public/ .
 COPY routes/ .
